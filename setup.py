@@ -6,7 +6,7 @@ setup(
     python_requires='>=3.5',
     packages=find_packages(),
     install_requires=[
-        'oauthenticator',
+        'oauthenticator==17.1.0',
         'aiohttp'
     ]
 )
